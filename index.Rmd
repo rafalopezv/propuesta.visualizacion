@@ -33,7 +33,7 @@ rm(pqkgs)
 
 ## Introducción
 
-El curso introduce al participante a la visualización de datos en cuatro pasos. El  primero consiste en mostrar y hacer familiar las **herramientas para el procesamiento y visualización de datos**, Excel, R[-@CiteR],  [Tableau](https://www.tableau.com), [Plotly](https://plot.ly), entre otros. El segundo paso explora las características de la materia prima de toda visualización: **base datos limpia**. Este paso también explica **conceptos de estadística** útiles en visualizaciones: histogramas, boxplots, regressión lineal, etc. El tercer paso consiste en mostrar **tipos de visualizaciones**, estáticas, dinámicas y apliciones y **aplicar lo aprendido** construyendo visualizaciones propias. Finalmente, el cuarto paso **resume lo aprendido** y **muestra una galería de visualizaciones**.
+El curso introduce al participante a la visualización de datos en cuatro pasos. El  primero consiste en mostrar y hacer familiar las **herramientas para el procesamiento y visualización de datos**, Excel, R[-@CiteR],  [Tableau](https://www.tableau.com), [Plotly](https://plot.ly), entre otros. El segundo paso explora las características de la materia prima de toda visualización: **base datos limpia**. Este paso también explica **conceptos de estadística** útiles en visualizaciones: histogramas, boxplots, regresión lineal, etc. El tercer paso consiste en mostrar **tipos de visualizaciones**, estáticas, dinámicas y aplicaciones y **emplear lo aprendido** construyendo visualizaciones propias. Finalmente, el cuarto paso **resume lo aprendido** y **muestra una galería de visualizaciones**.
 
 En resumen, los cuatro bloques son:
 
@@ -42,15 +42,15 @@ En resumen, los cuatro bloques son:
 3. Tipos de visualizaciones y aplicación práctica
 4. Resumen y galería de visualizaciones
 
-## Lógica del curso.
+## Lógica del curso
 
 Hadley Whickham [-@wickham2016r] resume el proceso de análisis de datos en la siguiente figura:
 
 ![](img/ciclo.png)
 
-Visulizar y comunicar (usando visualizaciones) son parte de un circuito mayor. Por tanto, es importante, al menos, explorar las características de cada eslabón y enfatizar en *visualizar* y *comunicar*. El curso cubre intriductoriaamente cada una de las partes de la figura. 
+Visulizar y comunicar (usando visualizaciones) son parte de un circuito mayor. Por tanto, es importante al menos, explorar las características de cada eslabón y enfatizar en *visualizar* y *comunicar*. El curso cubre introductoriamente cada una de las partes de la figura. 
 
-Visualizar para **entender** relaciones iniciales de los datos es un primer paso. Por ejemplo, el siguiente gráfico indaga la relación entre número de vuelos y promedio de atraso en los arrivos de más de 300 mil vuelos que partieron del aeropuerto de Nueva York en 2013. Whickham [-@R-nycflights13] Highcharter[-@R-highcharter]
+Visualizar para **entender** relaciones iniciales de los datos es un primer paso. Por ejemplo, el siguiente gráfico indaga la relación entre el número de vuelos y promedio de atraso en la llegada de más de 300 mil de estos que partieron del aeropuerto de Nueva York en 2013. Whickham [-@R-nycflights13] Highcharter[-@R-highcharter]
 
 ```{r, include=T, echo=F, warning=FALSE}
 library(magrittr)
@@ -135,7 +135,7 @@ hc
 
 ## Requerimientos
 
-- Tener presintalados y/o conocer el acceso web de los programas que se utilizaran en una computadora portatil o estacionaria:
+- Tener presintalados y/o conocer el acceso web de los programas que se utilizarán en una computadora portátil o estacionaria:
     + [R](https://cran.r-project.org)
     + [RStudio](https://www.rstudio.com)
     + [Tableau](https://www.tableau.com/es-es)
@@ -156,9 +156,9 @@ hc
 
 ```{r, include=T, echo=F, warning=FALSE}
 a <- tribble(
-  ~Paso, ~`Contenidos mínimos`, ~Métodología, ~Horas,
-  "Herramientas para procesamiento y visualización", "1. Conocer las características de procesadores de texto como R, Excel, Stata 2. Conocer la potencia de lenguajes de programación para fines estadísticos 3. Conocer el alcance de la reproducibilidad en trabajos cuantitativos. 4. Conocer a donde ir en la web a la hora de hacer visualizaciones", "1. Antes de la clase se distribuirán manuales de instalación para los programas que así lo requieran. 2. Se hará una demostración de todas las herramientas y ejemplos mínimos de cada uno de ellos. 3. Se proporcionaran bases de datos para la práctica", "2 horas, 120 minutos",
-  "Bases de datos y estadística", "1. Conoer cuando una base de datos se considera limpia. 2. Conocer como limpiar una base de datos. 3. Conocer los formatos horizontal y vertical de bases de datos. 4. Conocer medidas de centralidad estadística. 5. Conocer medidas de dispersión estadística. 6. Bases de regresión lineal", "1. Ejercicios sobre centralidad y dispersion. 2. Detección de tendencias sobre centralidad y dispersión visualmente. 3. Detección de tendencias y relación de dos variables visualmente", "2 horas, 120 minutos", 
+  ~Paso, ~`Contenidos mínimos`, ~Metodología, ~Horas,
+  "Herramientas para procesamiento y visualización", "1. Conocer las características de procesadores de datos como R, Excel, Stata 2. Conocer la potencia de lenguajes de programación para fines estadísticos 3. Conocer el alcance de la reproducibilidad en trabajos cuantitativos. 4. Conocer a donde ir en la web a la hora de hacer visualizaciones", "1. Antes de la clase se distribuirán manuales de instalación para los programas que así lo requieran. 2. Se hará una demostración de todas las herramientas y ejemplos mínimos de cada uno de ellos. 3. Se proporcionaran bases de datos para la práctica", "2 horas, 120 minutos",
+  "Bases de datos y estadística", "1. Conocer cuando una base de datos se considera limpia. 2. Conocer como limpiar una base de datos. 3. Conocer los formatos horizontal y vertical de bases de datos. 4. Conocer medidas de centralidad estadística. 5. Conocer medidas de dispersión estadística. 6. Bases de regresión lineal", "1. Ejercicios sobre centralidad y dispersion. 2. Detección de tendencias sobre centralidad y dispersión visualmente. 3. Detección de tendencias y relación de dos variables visualmente", "2 horas, 120 minutos", 
   "Tipos de visualizaciones y aplicación práctica", "1. Visualizaciones estáticas. 2. Visualizaciones dinámicas. 3. Visualización geográfica. 4. Animaciones. 5. Apps", "1. Muestra de cada tipo de visualización. 2. Ejercicios con bases de datos proporcionadas", "3 horas, 180 minutos",
   "Resumen y galería de visualizaciones", "1. Resumen general. 2. Preguntas y respuestas", "Discusión abierta", "1 hora, 60 minutos"
   )
@@ -175,7 +175,7 @@ a %>%
 
 El objetivo de esta etapa es que los participantes, con todo lo aprendido, puedan desarrollar un proyecto personal de visualización que narre una historia.
 
-En esta etapa el apoyo mñío será virtual, acompañando las dudas y/o brindando sugerencias sobre el trabajo. Para este fin en la ñultima clase presencial se darán a conocer acceso a bases de datos libres, a modo de incentivo.
+En esta etapa el apoyo mío será virtual, acompañando las dudas y/o brindando sugerencias sobre el trabajo. Para este fin en la última clase presencial se darán a conocer acceso a bases de datos libres, a modo de incentivo.
 
 La duración aproximada de esta etapa es de 8 horas a desarrollarse en el plazo de una semana, posterior a la conclusión de la fase presencial.
 
