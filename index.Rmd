@@ -149,10 +149,8 @@ hc
 
 ## Presupuesto
 
-1. Herramientas para procesamiento y visualización
-2. Bases de datos y estadística
-3. Tipos de visualizaciones y aplicación práctica
-4. Resumen y galería de visualizaciones
+------o--------
+------o--------
 
 ## Esquema del curso presencial
 
