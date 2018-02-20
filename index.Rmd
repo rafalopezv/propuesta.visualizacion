@@ -149,8 +149,9 @@ hc
 
 ## Presupuesto
 
-------o--------
-------o--------
+- El curso tiene 16 horas reloj equivalentes a 22 horas académicas de 45 minutos cada una
+- El presupuesto de cada hora académica de 45 minutos es de 360 Bolivianos
+- El presupuesto total es de 7920 Bolivianos, incluyendo impuestos de ley
 
 ## Esquema del curso presencial
 
