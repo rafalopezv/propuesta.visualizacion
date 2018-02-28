@@ -33,7 +33,7 @@ rm(pqkgs)
 
 ## Introducción
 
-El curso introduce al participante a la visualización de datos en cuatro pasos. El  primero consiste en mostrar y hacer familiar las **herramientas para el procesamiento y visualización de datos**, Excel, R[-@CiteR],  [Tableau](https://www.tableau.com), [Plotly](https://plot.ly), entre otros. El segundo paso explora las características de la materia prima de toda visualización: **base datos limpia**. Este paso también explica **conceptos de estadística** útiles en visualizaciones: histogramas, boxplots, regresión lineal, etc. El tercer paso consiste en mostrar **tipos de visualizaciones**, estáticas, dinámicas y aplicaciones y **emplear lo aprendido** construyendo visualizaciones propias. Finalmente, el cuarto paso **resume lo aprendido** y **muestra una galería de visualizaciones**.
+El curso introduce al participante a la visualización de datos en cuatro pasos. El  primero consiste en mostrar y hacer familiar las **herramientas para el procesamiento y visualización de datos**, Excel, R[-@CiteR],  [Tableau](https://www.tableau.com), [Plotly](https://plot.ly), entre otros. El segundo paso explora las características de la materia prima de toda visualización: **base de datos limpia**. Este paso también explica **conceptos de estadística** útiles en visualizaciones: histogramas, boxplots, regresión lineal, etc. El tercer paso consiste en mostrar **tipos de visualizaciones**, estáticas, dinámicas y aplicaciones y **emplear lo aprendido** construyendo visualizaciones propias. Finalmente, el cuarto paso **resume lo aprendido** y **muestra una galería de visualizaciones**.
 
 En resumen, los cuatro bloques son:
 
@@ -141,27 +141,28 @@ hc
     + [Tableau](https://www.tableau.com/es-es)
     + [Microsoft Excel](https://office.live.com/start/Excel.aspx?omkt=es-ES)
 
-## Carga horaria
+## Carga horaria y cronograma
 
-- 16 horas
-    + 8 Horas Presenciales:4 sesiones de 2 horas cada una
-    + 8 horas Virtuales: trabajo en proyectos finales
+- 15 horas presenciales:
+    + Divididas en 6 sesiones de 2.5 horas cada una
+    + Divididas en 2 fines de semana consecutivos, viernes y sábado
+    + Cada viernes se pasan 2.5 horas de clase
+    + Cada sábado se pasan 5 horas de clase
+    
+El siguiente esquema resume la propuesta de horas y cronograma:
 
-## Presupuesto
+<br>
+<img src="img/cronograma.png" height="500" width="500">
 
-- El curso tiene 16 horas reloj equivalentes a 22 horas académicas de 45 minutos cada una
-- El presupuesto de cada hora académica de 45 minutos es de 360 Bolivianos
-- El presupuesto total es de 7920 Bolivianos, incluyendo impuestos de ley
-
-## Esquema del curso presencial
+## Esquema del curso
 
 ```{r, include=T, echo=F, warning=FALSE}
 a <- tribble(
   ~Paso, ~`Contenidos mínimos`, ~Metodología, ~Horas,
-  "Herramientas para procesamiento y visualización", "1. Conocer las características de procesadores de datos como R, Excel, Stata 2. Conocer la potencia de lenguajes de programación para fines estadísticos 3. Conocer el alcance de la reproducibilidad en trabajos cuantitativos. 4. Conocer a donde ir en la web a la hora de hacer visualizaciones", "1. Antes de la clase se distribuirán manuales de instalación para los programas que así lo requieran. 2. Se hará una demostración de todas las herramientas y ejemplos mínimos de cada uno de ellos. 3. Se proporcionaran bases de datos para la práctica", "2 horas, 120 minutos",
-  "Bases de datos y estadística", "1. Conocer cuando una base de datos se considera limpia. 2. Conocer como limpiar una base de datos. 3. Conocer los formatos horizontal y vertical de bases de datos. 4. Conocer medidas de centralidad estadística. 5. Conocer medidas de dispersión estadística. 6. Bases de regresión lineal", "1. Ejercicios sobre centralidad y dispersion. 2. Detección de tendencias sobre centralidad y dispersión visualmente. 3. Detección de tendencias y relación de dos variables visualmente", "2 horas, 120 minutos", 
-  "Tipos de visualizaciones y aplicación práctica", "1. Visualizaciones estáticas. 2. Visualizaciones dinámicas. 3. Visualización geográfica. 4. Animaciones. 5. Apps", "1. Muestra de cada tipo de visualización. 2. Ejercicios con bases de datos proporcionadas", "3 horas, 180 minutos",
-  "Resumen y galería de visualizaciones", "1. Resumen general. 2. Preguntas y respuestas", "Discusión abierta", "1 hora, 60 minutos"
+  "Herramientas para procesamiento y visualización", "1. Conocer las características de procesadores de datos como R, Excel, Stata 2. Conocer la potencia de lenguajes de programación para fines estadísticos 3. Conocer el alcance de la reproducibilidad en trabajos cuantitativos. 4. Conocer a donde ir en la web a la hora de hacer visualizaciones", "1. Antes de la clase se distribuirán manuales de instalación para los programas que así lo requieran. 2. Se hará una demostración de todas las herramientas y ejemplos mínimos de cada uno de ellos. 3. Se proporcionaran bases de datos para la práctica", "2.5 horas",
+  "Bases de datos y estadística", "1. Conocer cuando una base de datos se considera limpia. 2. Conocer como limpiar una base de datos. 3. Conocer los formatos horizontal y vertical de bases de datos. 4. Conocer medidas de centralidad estadística. 5. Conocer medidas de dispersión estadística. 6. Bases de regresión lineal", "1. Ejercicios sobre centralidad y dispersion. 2. Detección de tendencias sobre centralidad y dispersión visualmente. 3. Detección de tendencias y relación de dos variables visualmente", "5 horas", 
+  "Tipos de visualizaciones y aplicación práctica", "1. Visualizaciones estáticas. 2. Visualizaciones dinámicas. 3. Visualización geográfica. 4. Animaciones. 5. Apps", "1. Muestra de cada tipo de visualización. 2. Ejercicios con bases de datos proporcionadas", "5 horas",
+  "Resumen y galería de visualizaciones", "1. Resumen general. 2. Preguntas y respuestas", "Discusión abierta", "2.5 horas"
   )
 ```
 
@@ -172,13 +173,21 @@ a %>%
   kable_styling()
 ```
 
-## Esquema del curso en su fase virtual
+Cada uno de los bloques estará acompañado de una sesión práctica, en la que los participantes aprenderán a aplicar lo desarrollado. Para todas las sesiones prácticas se proporcionará:
 
-El objetivo de esta etapa es que los participantes, con todo lo aprendido, puedan desarrollar un proyecto personal de visualización que narre una historia.
+ - Accesos libres a página de visualizaciones 
+ - Bases de datos con contexto boliviano e internacional
+ - Accesos a bases de datos
+ - Manuales de instalación y uso básico de los softwares a utilizarse
+ - Catálogo de ejercicios a desarrollarse en clase
+ 
+ Todo el material podrá ser entregado con 10 días de anticipación al inicio del curso.
 
-En esta etapa el apoyo mío será virtual, acompañando las dudas y/o brindando sugerencias sobre el trabajo. Para este fin en la última clase presencial se darán a conocer acceso a bases de datos libres, a modo de incentivo.
+## Presupuesto
 
-La duración aproximada de esta etapa es de 8 horas a desarrollarse en el plazo de una semana, posterior a la conclusión de la fase presencial.
+- El curso dura 15 horas, dividas en 6 bloques de 2.5 horas
+- El presupuesto de cada bloque de 2.5 horas es de 835 Bolivianos
+- El presupuesto total es de 5010 Bolivianos, incluyendo impuestos de ley
 
 ## Referencias de librerías 
 
