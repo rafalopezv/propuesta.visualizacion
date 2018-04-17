@@ -33,7 +33,15 @@ rm(pqkgs)
 
 ## Introducción
 
-El curso introduce al participante a la visualización de datos en cuatro pasos. El  primero consiste en mostrar y hacer familiar las **herramientas para el procesamiento y visualización de datos**, Excel, R[-@CiteR],  [Tableau](https://www.tableau.com), [Plotly](https://plot.ly), entre otros. El segundo paso explora las características de la materia prima de toda visualización: **base de datos limpia**. Este paso también explica **conceptos de estadística** útiles en visualizaciones: histogramas, boxplots, regresión lineal, etc. El tercer paso consiste en mostrar **tipos de visualizaciones**, estáticas, dinámicas y aplicaciones y **emplear lo aprendido** construyendo visualizaciones propias. Finalmente, el cuarto paso **resume lo aprendido** y **muestra una galería de visualizaciones**.
+La [Escuela de la Producción y Competitividad (ePC)](http://www.epc-ucb.edu.bo/website/index.php) de la [Universidad Católica Boliviana “San Pablo”](http://www.ucb.edu.bo/Nacional/Forms/Index.aspx) es el programa de más alto nivel académico en Bolivia, que con sus programas de Maestrías para el Desarrollo ha formado a más de 1.240 líderes que aportan sus conocimientos para el desarrollo del país.
+
+Actualmente, la ePC cuenta con un convenio con la Universidad de Harvard, para la asistencia en el desarrollo de currícula, capacitación de docentes, estudios de casos y material académico.
+
+Maestrías para el Desarrollo fue seleccionada en reiteradas ocasiones para figurar en el Ranking de las mejores Escuelas de Negocio de Latinoamérica publicado anualmente por la revista internacional América Economía; además de recibir, durante el 2017, por parte de EDUNIVERSAL, prestigiosa calificadora de rankings, el reconocimiento como una de las mejores Escuelas de Negocio del Mundo, como “Good Business School With Strong Regional Influence”.
+
+Conscientes de la necesidad de continua capacitación en los profesionales bolivianos, la ePC ofrece cursos de especialización a medida en las áreas de Negocios, Administración, Finanzas, Economía, Estrategia, Gerencia, Liderazgo, Negociación, Habilidades Gerenciales, Programas de Desarrollo, Creatividad e Innovación y temas relacionados a la Alta Gerencia Moderna.
+
+El presente curso introduce al participante a la visualización de datos en cuatro pasos. El  primero consiste en mostrar y hacer familiar las **herramientas para el procesamiento y visualización de datos**, Excel, R[-@CiteR],  [Tableau](https://www.tableau.com), [Plotly](https://plot.ly), entre otros. El segundo paso explora las características de la materia prima de toda visualización: **base de datos limpia**. Este paso también explica **conceptos de estadística** útiles en visualizaciones: histogramas, boxplots, regresión lineal, etc. El tercer paso consiste en mostrar **tipos de visualizaciones**, estáticas, dinámicas y aplicaciones y **emplear lo aprendido** construyendo visualizaciones propias. Finalmente, el cuarto paso **resume lo aprendido** y **muestra una galería de visualizaciones**.
 
 En resumen, los cuatro bloques son:
 
@@ -152,7 +160,7 @@ hc
 El siguiente esquema resume la propuesta de horas y cronograma:
 
 <br>
-<img src="img/cronograma.png" height="500" width="500">
+<img src="img/cronograma1.png" height="500" width="500">
 
 ## Esquema del curso
 
@@ -181,17 +189,24 @@ Cada uno de los bloques estará acompañado de una sesión práctica, en la que 
  - Manuales de instalación y uso básico de los softwares a utilizarse
  - Catálogo de ejercicios a desarrollarse en clase
  
- Todo el material podrá ser entregado con 10 días de anticipación al inicio del curso.
-
 ## Presupuesto
 
-- El curso dura 15 horas, dividas en 6 bloques de 2.5 horas
-- El presupuesto de cada bloque de 2.5 horas es de 835 Bolivianos
-- El presupuesto total es de 5010 Bolivianos, incluyendo impuestos de ley
+- El costo del curso es de 900 Bolivianos
 
 ## Referencias de librerías 
 
 Esta propuesta utilizó R y las librerías ggplot2[@R-ggplot2], magrittr[@R-magrittr] y dplyr[@R-dplyr]
+
+## Mayor información 
+
+Para mayor información comunicarse con Andrea Sejas, Responsable de Administración de
+Programas de Educación Continua e Investigaciones de la Escuela de Producción y Competitividad:
+
+- Correo electrónico: <a href="mailto:asejas@mpd.ucb.edu.bo">asejas@mpd.ucb.edu.bo</a> 
+- Teléfonos: 2786719 – 2786729 (Int. 114)
+
+## Facilitador
+- <a href="mailto:asejas@mpd.ucb.edu.bo">Rafael López Valverde</a> 
 
 ## Referencias y material bibliográfico
 
